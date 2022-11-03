@@ -1,0 +1,1 @@
+The Qt project is relying on the [GestIC SDK](https://ww1.microchip.com/downloads/en/DeviceDoc/MGC3030_MGC3130%20Software%20Development%20Kit%20V1.2.0.zip) from [MicroChip](https://www.microchip.com/en-us/product/MGC3130)

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>linearslider</class>
+ <widget class="QWidget" name="linearslider">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>715</width>
+    <height>552</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout" stretch="3">
+   <property name="topMargin">
+    <number>9</number>
+   </property>
+   <property name="bottomMargin">
+    <number>9</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="linearSliderContainerWidget" native="true">
+     <widget class="QSlider" name="linearSlider">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>240</y>
+        <width>250</width>
+        <height>250</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QSlider::groove:horizontal {
+    height: 8px;
+    background: #7f8c8d;
+    margin: 2px 0;
+}
+
+QSlider::handle:horizontal {
+    background: #3498db;
+    border: 1px solid #5c5c5c;	
+    width: 20px;
+	margin: -20px 0px;
+    border-radius:  10px;
+}
+
+
+QSlider::groove:vertical {
+    width: 8px;
+    background: #7f8c8d;
+    margin: 2px 0;
+}
+
+QSlider::handle:vertical {
+    background: #3498db;
+    border: 1px solid #5c5c5c;
+	height: 40px;
+	margin: 0 -20px;
+    border-radius: 20px;
+}</string>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QSlider" name="linearSlider_user">
+      <property name="geometry">
+       <rect>
+        <x>39</x>
+        <y>20</y>
+        <width>251</width>
+        <height>250</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QSlider::groove:horizontal {
+    height: 8px;
+    background: #7f8c8d;
+    margin: 2px 0;
+}
+
+QSlider::handle:horizontal {
+    background: #c0392b;
+    border: 1px solid #5c5c5c;
+    width: 20px;
+	margin: -20px 0px;
+    border-radius:  10px;
+}
+
+
+QSlider::groove:vertical {
+    width: 8px;
+    background: #7f8c8d;
+    margin: 2px 0;
+}
+
+QSlider::handle:vertical {
+    background: #c0392b;
+    border: 1px solid #5c5c5c;
+	height: 40px;
+	margin: 0 -20px;
+    border-radius: 20px;
+}</string>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="tickPosition">
+       <enum>QSlider::NoTicks</enum>
+      </property>
+      <property name="tickInterval">
+       <number>0</number>
+      </property>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
