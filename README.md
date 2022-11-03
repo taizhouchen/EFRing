@@ -1,7 +1,10 @@
 # EFRing
-Source code for project: ***EFRing: Enabling Thumb-to-Index-Finger Microgesture Interaction through Electric Field Sensing using Single Smart Ring***
+Source code for paper: ***EFRing: Enabling Thumb-to-Index-Finger Microgesture Interaction through Electric Field Sensing using Single Smart Ring***
 
 ![EFRing](Images/efring.jpg)
+
+
+## Repository Architecture
 
 📦Root<br/>
  ┣ 📂GUI<br/>
