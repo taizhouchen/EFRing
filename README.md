@@ -1,6 +1,8 @@
 # EFRing
 Source code for project: ***EFRing: Enabling Thumb-to-Index-Finger Microgesture Interaction through Electric Field Sensing using Single Smart Ring***
 
+![EFRing](Images/efring.jpg)
+
 📦Root<br/>
  ┣ 📂GUI<br/>
  ┃ ┣ 📂Continuous_Model     ---- the demo continuous models are detector models for the real-time continuous gesture tracking demo<br/>
